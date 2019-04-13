@@ -1,7 +1,8 @@
 {
   "name": "seasonary",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Web App for seasonal TODOs.",
   "dependencies": {
     "@types/jest": "24.0.11",
     "@types/node": "11.13.4",
@@ -35,5 +36,10 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.17.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:kamataryo/seasonary.git",
+  "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://seasonary.netlify.com/"
 }
